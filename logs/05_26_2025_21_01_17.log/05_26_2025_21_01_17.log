@@ -1,0 +1,26 @@
+[ 2025-05-26 21:01:22,887 ] 20 root - INFO - Initiate the data ingestion
+[ 2025-05-26 21:01:44,199 ] 65 root - INFO - Performed train test split on the dataframe
+[ 2025-05-26 21:01:44,199 ] 67 root - INFO - Exited split_data_as_train_test method of Data_Ingestion class
+[ 2025-05-26 21:01:44,199 ] 75 root - INFO - Exporting train and test file path.
+[ 2025-05-26 21:01:44,243 ] 84 root - INFO - Exported train and test file path.
+[ 2025-05-26 21:01:44,243 ] 22 root - INFO - Data Initiation Completed
+[ 2025-05-26 21:01:44,262 ] 26 root - INFO - Initiate the data Validation
+[ 2025-05-26 21:01:44,318 ] 32 root - INFO - Required number of columns:2
+[ 2025-05-26 21:01:44,319 ] 33 root - INFO - Data frame has columns:31
+[ 2025-05-26 21:01:44,319 ] 32 root - INFO - Required number of columns:2
+[ 2025-05-26 21:01:44,319 ] 33 root - INFO - Data frame has columns:31
+[ 2025-05-26 21:01:44,450 ] 28 root - INFO - data Validation Completed
+[ 2025-05-26 21:01:44,450 ] 31 root - INFO - data Transformation started
+[ 2025-05-26 21:01:44,450 ] 63 root - INFO - Entered initiate_data_transformation method of DataTransformation class
+[ 2025-05-26 21:01:44,450 ] 65 root - INFO - Starting data transformation
+[ 2025-05-26 21:01:44,473 ] 48 root - INFO - Entered get_data_trnasformer_object method of Trnasformation class
+[ 2025-05-26 21:01:44,473 ] 53 root - INFO - Initialise KNNImputer with {'missing_values': nan, 'n_neighbors': 3, 'weights': 'uniform'}
+[ 2025-05-26 21:01:44,490 ] 46 root - INFO - Entered the save_object method of MainUtils class
+[ 2025-05-26 21:01:44,493 ] 50 root - INFO - Exited the save_object method of MainUtils class
+[ 2025-05-26 21:01:44,493 ] 46 root - INFO - Entered the save_object method of MainUtils class
+[ 2025-05-26 21:01:44,496 ] 50 root - INFO - Exited the save_object method of MainUtils class
+[ 2025-05-26 21:01:44,498 ] 35 root - INFO - data Transformation completed
+[ 2025-05-26 21:01:44,498 ] 37 root - INFO - Model Training sstared
+[ 2025-05-26 21:37:08,375 ] 868 urllib3.connectionpool - WARNING - Retrying (Retry(total=6, connect=7, read=7, redirect=7, status=7)) after connection broken by 'SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:2384)')': /krishnaik06/networksecurity.mlflow/api/2.0/mlflow-artifacts/artifacts/39dd78e691c14027a66f1293747022d5/f663c4929fd64d119c4cfa3f8335398c/artifacts/model/model.pkl
+[ 2025-05-26 21:39:13,420 ] 868 urllib3.connectionpool - WARNING - Retrying (Retry(total=5, connect=7, read=6, redirect=7, status=7)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='dagshub.com', port=443): Read timed out. (read timeout=120)")': /krishnaik06/networksecurity.mlflow/api/2.0/mlflow-artifacts/artifacts/39dd78e691c14027a66f1293747022d5/f663c4929fd64d119c4cfa3f8335398c/artifacts/model/model.pkl
+[ 2025-05-26 21:40:44,152 ] 868 urllib3.connectionpool - WARNING - Retrying (Retry(total=4, connect=7, read=5, redirect=7, status=7)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /krishnaik06/networksecurity.mlflow/api/2.0/mlflow-artifacts/artifacts/39dd78e691c14027a66f1293747022d5/f663c4929fd64d119c4cfa3f8335398c/artifacts/model/model.pkl
